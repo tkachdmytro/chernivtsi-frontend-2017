@@ -1,0 +1,105 @@
+.header-line {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-link {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    align-items: center;
+}
+.header-photos-link {
+    padding-left: 15px;
+}
+.header-link a {
+    text-decoration: none;
+    line-height: 25px;
+    outline: none;
+    vertical-align: middle;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+.header-link a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+.header-options{
+    min-width: 30px;
+    font-size: 0;
+}
+.header-options-link {
+    background-image: url(../images/google_icons.png);
+    background-size: 92px 2835px;
+    background-position: 0 -894px;
+    opacity: .55;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.logo {
+    height: 231px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.form-search {
+    display: flex;
+    justify-content: center;
+}
+.form-content {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height: 44px;
+    outline: none;
+    width: 80%;
+    line-height: 36px;
+    max-width: 672px;
+    position: relative;
+    display: inline-block;
+    font: 18px arial,sans-serif;
+    padding-left: 16px;
+}
+.form-content > input{
+    background: transparent;
+    border: none;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 3%;
+    margin: 0;
+    outline: none;
+    position: absolute;
+    top: 2px;
+    width: 97%;
+}
+.form-content:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 100%;
+    background: url(../images/microphone-ico.png) no-repeat center;
+    background-size: 100% auto;
+    margin: 0 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
